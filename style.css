@@ -1,0 +1,22 @@
+body{
+    min-height:100vh;
+    display:grid;
+    grid-template-columns:300px 1fr;
+    /* border:2px solid black; */
+    grid-template-areas:
+    "navbar navbar"
+    "sidebar main"
+    "sidebar footer";
+}
+nav{
+    grid-area:navbar;
+}
+aside{
+    grid-area:sidebar;
+}
+main{
+    grid-area:main;
+}
+footer{
+    grid-area:footer;
+}
