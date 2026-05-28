@@ -46,6 +46,9 @@ footer{
    aside{
     position:fixed;
     width:300px;
-    background-color:#0000003e;
+    display:none;
+   }
+   .show{
+    display:block;
    }
 }
